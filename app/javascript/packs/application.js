@@ -17,7 +17,8 @@ const images = require.context('../images', true)
 $(function(){
   $("#getWord").click(function(event){
     $.get("/words/new", function(word){
-      $("#showWord").text(word)
+      console.log('Fetched word:', word);
+      $("#showWord").val(word)
     })
   });
 });
