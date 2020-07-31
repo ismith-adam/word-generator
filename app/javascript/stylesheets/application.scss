@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/randomBG.svg');
+  background-size: cover;
+
+
+}
